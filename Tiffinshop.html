@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Tiffin Shop</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="Shop.css"></link>
+        <script type="text/javascript" src="pppp.js"></script>
+    </head>
+    <body>
+        <div>
+            <h1>Tiffin Shop</h1>
+           Flavour <select id="types" name="types">
+               <option id="none" value="none">Select the Options</option>
+                <option id="Dosa" value="Dosa">Dosa</option>
+                                <option id="Puri" value="Puri">Puri</option>
+                                                <option id="Idly" value="Idly">Idly</option>
+                                                                <option id="Bajji" value="Bajji">Vanilla</option>
+            </select><br><br>
+            <fieldset id="rd">
+               <legend>Service</legend>
+               <input type="radio" id="Home" name="Services" value="Home">Home</input><br>
+               <input type="radio" id="Shop" name="Services" value="Shop">Shop</input><br>
+               
+           </fieldset><br>
+           Quantity (1-10) <input type="number" id="num"></input><br><br>
+           <fieldset id="rd">
+               <legend>Spices</legend>
+               <input type="checkbox" id="onions" value="onions">onions </input><br>
+                <input type="checkbox" id="lemon" value="lemon">lemon</input>
+           </fieldset><br>
+           <input type="button" value="Order" id="submit"></input>
+           <p id="dd"></p>
+           <p id="disp"></p>
+            
+        </div>
+    </body>
+</html>

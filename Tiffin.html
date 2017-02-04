@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Fitness Center</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="ice.css"></link>
+        <script type="text/javascript" src="order.js"></script>
+    </head>
+    <body>
+        <div>
+            <h1>Welcome to Avinash Fitness Center</h1>
+           Fitness Menu <select id="plans" name="Plans">
+               <option id="none" value="none">Select monthly plan</option>
+                <option id="single" value="Single">Single Person</option>
+                                <option id="two" value="Two">Two Persons</option>
+                                                <option id="family_pack" value="Family_pack">Family Pack(4 persons)</option>
+                                                                <!--<option id="vanilla" value="vanilla">Vanilla</option>-->
+            </select><br><br>
+            <fieldset id="trainer">
+               <legend>Do you need a Personal trainer?</legend>
+               <input type="radio" id="yes" name="trainer" value="Yes">Yes</input><br>
+               <input type="radio" id="no" name="trainer" value="No">No</input><br>
+               <!--<input type="radio" id="large" name="sizes" value="large">Large</input><br>-->
+           </fieldset><br>
+          <!-- Quantity (1-10) <input type="number" id="num"></input><br><br>-->
+           <fieldset id="subscribe">
+               <legend>Subscriptions</legend>
+               <input name ="subscribe" type="radio" id="month" value="Month">Monthly</input><br>
+                <input name ="subscribe"  type="radio" id="year" value="Year">Yearly</input>
+           </fieldset><br>
+           <input type="button" value="Order" id="submit"></input>
+           <p id="dd"></p>
+           <p id="disp"></p>
+            
+        </div>
+    </body>
+</html>
